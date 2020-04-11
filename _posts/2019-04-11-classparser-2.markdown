@@ -44,7 +44,7 @@ class Parser(private val byteReader: ByteReader) {
 ```
 前面3个部分，魔数，次版本号，主版本号很简单，只要读取相应长度的字节即可，然后是重头戏常量池，根据上文可知，常量池先是一个2字节的数，表示常量池
 中常量个数N，后面紧跟着N个常量。因此还需要一个枚举类，用来表示常量的类型。下面是截取了部分类型
-```$kotlin
+```kotlin
 enum class Tag(val flag: Int,
                val tagName: String) {
     CONSTANT_UTF8_INFO(1, "Utf8"),
