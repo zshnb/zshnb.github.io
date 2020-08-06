@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Manjaro安装指南
-date: 2020-07-21 16:22
+date: 2020-08-06 13:50
 author: zsh
 catalog: true
 tags:
