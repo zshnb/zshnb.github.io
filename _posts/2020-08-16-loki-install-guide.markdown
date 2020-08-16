@@ -1,4 +1,3 @@
-```
 ---
 layout: post
 title: loki安装踩坑记
@@ -8,7 +7,6 @@ catalog: true
 tags:
     - loki
 ---
-```
 
 ## 介绍
 
