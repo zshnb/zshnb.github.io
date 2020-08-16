@@ -39,7 +39,7 @@ tags:
 1. 安装fcitx和搜狗拼音输入法：
 
    ```shell
-   sudo pacman -S fcitx-sogoupinyin
+   sudo pacman -S fcitx-googlepinyin
    sudo pacman -S fcitx-im
    sudo pacman -S fcitx-configtool
    ```
@@ -96,17 +96,17 @@ tags:
 
 ## 常用软件
 
-- firefox（自带）
-- java8
-- docker，docker-compose
-- electron-ssr
+- Firefox（自带）
+- Java8
+- Docker，docker-compose
+- Electron-ssr
 - typora
-- vlc
-- telegram
-- intellij idea
-- data grip
-- postman
-- redis desktop manager
-- deepin-wine-wechat
-- chrome
-- albert
+- Vlc
+- Telegram
+- Intellij idea
+- Data grip
+- Postman
+- Redis desktop manager
+- Deepin-wine-wechat
+- Chrome
+- Albert
