@@ -59,7 +59,7 @@ loki是grafana推出的一款轻量级日志收集框架，由于实在不想搭
 
   
 
-- 创建promtail的配置文件，promtail用来将容器日志发送到 Loki 或者 Grafana 服务上的日志收集工具，该工具主要包括发现采集目标以及给日志流添加上 Label 标签 然后发送给 Loki。
+- 创建promtail的配置文件，路径就放在上面外部配置指定的路径里，promtail用来将容器日志发送到 Loki 或者 Grafana 服务上的日志收集工具，该工具主要包括发现采集目标以及给日志流添加上 Label 标签 然后发送给 Loki。
 
   ```yaml
   server:
