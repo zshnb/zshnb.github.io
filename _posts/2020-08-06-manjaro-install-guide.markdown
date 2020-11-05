@@ -36,7 +36,7 @@ tags:
 
 ### 输入法
 
-1. 安装fcitx和搜狗拼音输入法：
+1. 安装fcitx和谷歌拼音输入法：
 
    ```shell
    sudo pacman -S fcitx-googlepinyin
@@ -46,11 +46,13 @@ tags:
 
 2. 设置环境变量，在`~/.xprofile`文件（如果文件不存在就新建一个）末尾加上：
 
-   ```
+   ```shell
    export GTK_IM_MODULE=fcitx
    export QT_IM_MODULE=fcitx
    export XMODIFIERS="@im=fcitx"
    ```
+   
+3. 重启电脑后在命令行中执行fcitx
 
 ### Shell
 
@@ -107,6 +109,6 @@ tags:
 - Data grip
 - Postman
 - Redis desktop manager
-- Deepin-wine-wechat
+- Deepin-wine-wechat（安装前需安装fateroot, binutils, patch包）
 - Chrome
 - Albert
