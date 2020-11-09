@@ -102,7 +102,7 @@ tags:
 - Java8
 - Docker，docker-compose
 - Electron-ssr
-- typora
+- Typora
 - Vlc
 - Telegram
 - Intellij idea
@@ -112,3 +112,5 @@ tags:
 - Deepin-wine-wechat（安装前需安装fateroot, binutils, patch包）
 - Chrome
 - Albert
+- Onedriver
+- Wps
