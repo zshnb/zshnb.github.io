@@ -52,7 +52,9 @@ tags:
    export XMODIFIERS="@im=fcitx"
    ```
    
-3. 重启电脑后在命令行中执行fcitx
+3. 安装系统依赖库 `pacman -S --needed base-devel`
+   
+4. 重启电脑后在命令行中执行fcitx
 
 ### Shell
 
@@ -109,7 +111,7 @@ tags:
 - Data grip
 - Postman
 - Redis desktop manager
-- Deepin-wine-wechat（安装前需安装fateroot, binutils, patch包）
+- Deepin-wine-wechat
 - Chrome
 - Albert
 - Onedriver
