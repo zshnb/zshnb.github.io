@@ -107,6 +107,7 @@ tags:
 2. 添加代理服务器
 3. 浏览器下载switchyOmega插件，设置代理地址端口为软件里配置的地址
 4. 在/etc/profiles或者.zshrc里添加
+
 ```shell script
 export http_proxy="socks5://127.0.0.1:1080"
 export https_proxy="socks5://127.0.0.1:1080"
