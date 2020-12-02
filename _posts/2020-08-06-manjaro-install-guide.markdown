@@ -98,12 +98,27 @@ tags:
 
    - 编辑.zshrc，添加 `plugins=(zsh-autosuggestions zsh-syntax-highlighting)`
 
+### 独显驱动
+1. `sudo mhwd -a pci nonfree 0300` 安装驱动
+2. 重启
+
+### 科学上网
+1. 下载ShadowSocks-qt5
+2. 添加代理服务器
+3. 浏览器下载switchyOmega插件，设置代理地址端口为软件里配置的地址
+4. 在/etc/profiles或者.zshrc里添加
+```shell script
+export http_proxy="socks5://127.0.0.1:1080"
+export https_proxy="socks5://127.0.0.1:1080"
+```
+
 ## 常用软件
 
 - Firefox（自带）
 - Java8
 - Docker，docker-compose
-- Electron-ssr
+- ~~Electron-ssr~~
+- ShadowSocks-qt5
 - Typora
 - Vlc
 - Telegram
