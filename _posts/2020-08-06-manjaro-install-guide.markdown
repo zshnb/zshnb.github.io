@@ -101,16 +101,16 @@ tags:
 ## 常用软件
 
 - Firefox（自带）
-- Java8
-- Docker，docker-compose
-- Electron-ssr
+- Java11
+- Docker
+- Electron-ssr // 已不维护
 - Typora
 - Vlc
 - Telegram
+- Jetbrains toolbox 
 - Intellij idea
 - Data grip
 - Postman
-- Redis desktop manager
 - Deepin-wine-wechat
 - Chrome
 - Albert
