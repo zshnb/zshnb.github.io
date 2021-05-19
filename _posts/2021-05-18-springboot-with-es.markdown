@@ -1,9 +1,13 @@
 ---
-layout: post title: SpringBoot配置elasticsearch rest template date: 2021-05-18 17:17 author: zsh catalog: true tags:
-
-- Java
-- SpringBoot
-- Elasticsearch
+layout: post 
+title: SpringBoot配置elasticsearch rest template 
+date: 2021-05-18 17:17 
+author: zsh 
+catalog: true 
+tags:
+    - Java
+    - SpringBoot
+    - Elasticsearch
 
 ---
 
