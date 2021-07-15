@@ -17,9 +17,9 @@ tags:
 <html>
 <body>
 <div class="layui-form-item">
-    <label class="layui-form-label">上传财务信息</label>
+    <label class="layui-form-label">上传信息</label>
     <div class="layui-upload">
-        <button type="button" class="layui-btn layui-btn-normal" id="upload-finance-btn">选择文件</button>
+        <button type="button" class="layui-btn layui-btn-normal" id="upload-people-btn">选择文件</button>
         <div class="layui-upload-list">
             <table class="layui-table">
                 <thead>
@@ -31,10 +31,10 @@ tags:
                     <th>操作</th>
                 </tr>
                 </thead>
-                <tbody id="demoListFinance"></tbody>
+                <tbody id="demoListPeople"></tbody>
             </table>
         </div>
-        <button type="button" class="layui-btn" id="fileListActionFinance">开始上传</button>
+        <button type="button" class="layui-btn" id="fileListActionPeople">开始上传</button>
     </div>
 </div>
 </body>
